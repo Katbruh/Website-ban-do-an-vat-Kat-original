@@ -2,7 +2,6 @@
 .agents/
 .opendesigner-source-tmp/
 .skill-install-tmp/
-opendesigner/
 
 # Cac file markdown tai lieu noi bo / nhap
 DESIGN.md

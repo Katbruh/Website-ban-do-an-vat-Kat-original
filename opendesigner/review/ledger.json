@@ -1,0 +1,412 @@
+{
+  "cells": {
+    "/|390x844|light": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:17"
+    },
+    "/|768x900|light": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:18"
+    },
+    "/|1280x900|light": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:19"
+    },
+    "/cart.html|390x844|light": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:19"
+    },
+    "/cart.html|768x900|light": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:20"
+    },
+    "/cart.html|1280x900|light": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:20"
+    },
+    "/orders.html|390x844|light": {
+      "status": "todo",
+      "evidence": [],
+      "why": ""
+    },
+    "/orders.html|768x900|light": {
+      "status": "todo",
+      "evidence": [],
+      "why": ""
+    },
+    "/orders.html|1280x900|light": {
+      "status": "todo",
+      "evidence": [],
+      "why": ""
+    },
+    "/login.html|390x844|light": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:21"
+    },
+    "/login.html|768x900|light": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:22"
+    },
+    "/login.html|1280x900|light": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:22"
+    },
+    "/admin-login.html|390x844|light": {
+      "status": "todo",
+      "evidence": [],
+      "why": ""
+    },
+    "/admin-login.html|768x900|light": {
+      "status": "todo",
+      "evidence": [],
+      "why": ""
+    },
+    "/admin-login.html|1280x900|light": {
+      "status": "todo",
+      "evidence": [],
+      "why": ""
+    },
+    "/admin.html|390x844|light": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:23"
+    },
+    "/admin.html|768x900|light": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:24"
+    },
+    "/admin.html|1280x900|light": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:24"
+    },
+    "task:/|scroll-walk": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:25"
+    },
+    "task:/|focus-walk": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:25"
+    },
+    "task:/|hover-and-press": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:25"
+    },
+    "task:/|states-and-data": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:26"
+    },
+    "task:/|motion": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:26"
+    },
+    "task:/|stress-text": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:26"
+    },
+    "task:/|reduced-motion": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:27"
+    },
+    "task:/|forced-colors": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:27"
+    },
+    "task:/|console-and-network": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:27"
+    },
+    "task:/cart.html|scroll-walk": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:28"
+    },
+    "task:/cart.html|focus-walk": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:28"
+    },
+    "task:/cart.html|hover-and-press": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:28"
+    },
+    "task:/cart.html|states-and-data": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:29"
+    },
+    "task:/cart.html|motion": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:29"
+    },
+    "task:/cart.html|stress-text": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:29"
+    },
+    "task:/cart.html|reduced-motion": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:30"
+    },
+    "task:/cart.html|forced-colors": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:30"
+    },
+    "task:/cart.html|console-and-network": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:30"
+    },
+    "task:/orders.html|scroll-walk": {
+      "status": "todo",
+      "evidence": [],
+      "why": ""
+    },
+    "task:/orders.html|focus-walk": {
+      "status": "todo",
+      "evidence": [],
+      "why": ""
+    },
+    "task:/orders.html|hover-and-press": {
+      "status": "todo",
+      "evidence": [],
+      "why": ""
+    },
+    "task:/orders.html|states-and-data": {
+      "status": "todo",
+      "evidence": [],
+      "why": ""
+    },
+    "task:/orders.html|motion": {
+      "status": "todo",
+      "evidence": [],
+      "why": ""
+    },
+    "task:/orders.html|stress-text": {
+      "status": "todo",
+      "evidence": [],
+      "why": ""
+    },
+    "task:/orders.html|reduced-motion": {
+      "status": "todo",
+      "evidence": [],
+      "why": ""
+    },
+    "task:/orders.html|forced-colors": {
+      "status": "todo",
+      "evidence": [],
+      "why": ""
+    },
+    "task:/orders.html|console-and-network": {
+      "status": "todo",
+      "evidence": [],
+      "why": ""
+    },
+    "task:/login.html|scroll-walk": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:31"
+    },
+    "task:/login.html|focus-walk": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:31"
+    },
+    "task:/login.html|hover-and-press": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:31"
+    },
+    "task:/login.html|states-and-data": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:32"
+    },
+    "task:/login.html|motion": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:32"
+    },
+    "task:/login.html|stress-text": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:32"
+    },
+    "task:/login.html|reduced-motion": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:32"
+    },
+    "task:/login.html|forced-colors": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:33"
+    },
+    "task:/login.html|console-and-network": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:33"
+    },
+    "task:/admin-login.html|scroll-walk": {
+      "status": "todo",
+      "evidence": [],
+      "why": ""
+    },
+    "task:/admin-login.html|focus-walk": {
+      "status": "todo",
+      "evidence": [],
+      "why": ""
+    },
+    "task:/admin-login.html|hover-and-press": {
+      "status": "todo",
+      "evidence": [],
+      "why": ""
+    },
+    "task:/admin-login.html|states-and-data": {
+      "status": "todo",
+      "evidence": [],
+      "why": ""
+    },
+    "task:/admin-login.html|motion": {
+      "status": "todo",
+      "evidence": [],
+      "why": ""
+    },
+    "task:/admin-login.html|stress-text": {
+      "status": "todo",
+      "evidence": [],
+      "why": ""
+    },
+    "task:/admin-login.html|reduced-motion": {
+      "status": "todo",
+      "evidence": [],
+      "why": ""
+    },
+    "task:/admin-login.html|forced-colors": {
+      "status": "todo",
+      "evidence": [],
+      "why": ""
+    },
+    "task:/admin-login.html|console-and-network": {
+      "status": "todo",
+      "evidence": [],
+      "why": ""
+    },
+    "task:/admin.html|scroll-walk": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:33"
+    },
+    "task:/admin.html|focus-walk": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:34"
+    },
+    "task:/admin.html|hover-and-press": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:34"
+    },
+    "task:/admin.html|states-and-data": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:34"
+    },
+    "task:/admin.html|motion": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:35"
+    },
+    "task:/admin.html|stress-text": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:35"
+    },
+    "task:/admin.html|reduced-motion": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:35"
+    },
+    "task:/admin.html|forced-colors": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:36"
+    },
+    "task:/admin.html|console-and-network": {
+      "status": "blocked",
+      "evidence": [],
+      "why": "Browser review blocked: localhost preview timed out in the available browser, file:// is policy-blocked, and alternate browser surfaces are disallowed.",
+      "at": "2026-11-04T17:55:36"
+    }
+  }
+}
