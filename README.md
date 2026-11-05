@@ -2,13 +2,15 @@
 
 Kat là website nhiều trang cho một quán ăn vặt nhỏ do bốn sinh viên cùng tạo nên. Khách có thể xem món, chọn loại và giá, đặt giao hàng hoặc đến lấy tại quán, rồi theo dõi đơn hàng. Website được xây bằng HTML, CSS và JavaScript thuần, với sự hỗ trợ của AI qua Codex.
 
-## Chạy website
+## Mở website
 
-Cần có Python 3 để mở máy chủ tĩnh. Trong PowerShell, tại thư mục dự án, chạy:
+Cách nhanh nhất là mở thư mục dự án rồi bấm đúp vào index.html. Chrome sẽ mở trang chủ trực tiếp từ máy tính. Không cần cài Python, thư viện hay chạy bước build.
+
+Nếu muốn mở website qua địa chỉ localhost, mở PowerShell tại thư mục dự án và chạy:
 
     py -m http.server 8000
 
-Mở http://localhost:8000 bằng Chrome. Dừng máy chủ bằng Ctrl+C. Website không cần cài thư viện hay chạy bước build.
+Sau đó mở http://localhost:8000. Nếu máy không nhận lệnh py, thử python -m http.server 8000. Dừng máy chủ bằng Ctrl+C.
 
 ## Cấu trúc website
 

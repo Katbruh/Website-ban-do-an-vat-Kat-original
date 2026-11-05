@@ -542,7 +542,8 @@ img { max-width: 100%; }
 .masthead-photo-note span { color: var(--ds-color-text-accent); font: var(--ds-text-label-sm); letter-spacing: 0.08em; }
 .masthead-photo-note strong { font: var(--ds-text-title-md); }
 .masthead-copy { position: absolute; inset-inline-start: clamp(var(--ds-space-24), 7vw, var(--ds-space-64)); inset-block-start: 50%; z-index: 3; width: min(34rem, 48vw); padding: clamp(var(--ds-space-24), 4vw, var(--ds-space-40)); transform: translateY(-50%); border-inline-start: var(--ds-border-width-emphasis) solid var(--ds-color-brand-seed); border-radius: var(--ds-radius-container); background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(8px); box-shadow: var(--ds-elevation-floating); }
-.masthead-copy h1 { max-width: 15ch; margin: 0; color: var(--ds-color-text-heading); font: var(--ds-text-headline-md); letter-spacing: -0.04em; }
+.masthead-copy h1 { max-width: none; margin: 0; color: var(--ds-color-text-heading); font: var(--ds-text-headline-md); letter-spacing: -0.04em; }
+.masthead-copy h1 .masthead-title-nowrap { display: inline-block; white-space: nowrap; color: var(--ds-color-text-heading); }
 .masthead-copy h1 span, .hero-delivery-promise span { color: var(--ds-color-text-accent); }
 .delivery-feature-label { margin: 0 0 var(--ds-space-12); color: var(--ds-color-text-accent); font: var(--ds-text-label-lg); letter-spacing: 0.12em; text-transform: uppercase; }
 .hero-delivery-promise { margin: var(--ds-space-16) 0 0; color: var(--ds-color-text-heading); font: var(--ds-text-title-lg); }
