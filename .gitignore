@@ -1,0 +1,10 @@
+﻿# Cac thu muc cong cu va file tam
+.agents/
+.opendesigner-source-tmp/
+.skill-install-tmp/
+opendesigner/
+
+# Cac file markdown tai lieu noi bo / nhap
+DESIGN.md
+PRODUCT.md
+PRODUCT.md.hand-edited
