@@ -1,49 +1,95 @@
 # Kat — website đặt món ăn vặt
 
-Kat là website nhiều trang cho một quán ăn vặt nhỏ. Khách có thể xem món, chọn loại và giá, đặt giao hàng hoặc đến lấy tại quán, rồi theo dõi đơn. Giao diện được xây bằng HTML, CSS và JavaScript thuần; không cần cài thư viện hay chạy bước build.
+Kat là website nhiều trang cho một quán ăn vặt nhỏ do bốn sinh viên cùng tạo nên. Khách có thể xem món, chọn loại và giá, đặt giao hàng hoặc đến lấy tại quán, rồi theo dõi đơn hàng. Website được xây bằng HTML, CSS và JavaScript thuần, với sự hỗ trợ của AI qua Codex.
 
 ## Chạy website
 
-Mở PowerShell tại thư mục dự án và chạy máy chủ tĩnh:
+Cần có Python 3 để mở máy chủ tĩnh. Trong PowerShell, tại thư mục dự án, chạy:
 
     py -m http.server 8000
 
-Mở http://localhost:8000 trong Chrome. Dừng máy chủ bằng Ctrl+C.
+Mở http://localhost:8000 bằng Chrome. Dừng máy chủ bằng Ctrl+C. Website không cần cài thư viện hay chạy bước build.
 
-## Các trang
+## Cấu trúc website
 
-- Trang chủ (index.html): giới thiệu Kat, món nổi bật và đường dẫn tới các phần chính.
-- Thực đơn (menu.html): tìm món, lọc danh mục và giá, sắp xếp, cuộn để tải thêm. Bấm vào thẻ món để mở popup chọn loại, khẩu vị và topping.
-- Ưu đãi hôm nay (offers.html): xem và đặt các combo; chọn thức uống đi kèm hoặc bỏ nước nếu combo hỗ trợ.
-- Cửa hàng (stores.html): xem địa chỉ và giờ mở cửa của hai cơ sở.
-- Giỏ hàng (cart.html): cập nhật số lượng, chọn giao hàng hoặc lấy tại quán, áp dụng voucher và đặt hàng.
-- Theo dõi đơn hàng (orders.html): tra cứu bằng mã đơn và số điện thoại hoặc xem lịch sử sau khi đăng nhập.
-- Góp ý (feedback.html): gửi phản hồi về món ăn và dịch vụ.
-- Đăng nhập (login.html): khách đăng nhập hoặc tạo tài khoản bằng số điện thoại.
-- Đăng nhập quản trị (admin-login.html) và quản lý cửa hàng (admin.html): quản lý thực đơn, danh mục, đơn hàng, combo, voucher, đánh giá, góp ý và tài khoản.
+Các trang HTML ở thư mục gốc, dùng chung giao diện và các đoạn xử lý JavaScript:
+
+| Trang | Nội dung |
+| --- | --- |
+| index.html | Trang chủ, ảnh món gợi ý, lời giới thiệu Kat, món bán chạy và liên kết tới các phần chính |
+| menu.html | Danh mục, tìm kiếm, lọc khoảng giá, sắp xếp và danh sách món |
+| offers.html | Voucher được công khai và các combo ưu đãi |
+| stores.html | Địa chỉ và giờ mở cửa của hai cơ sở |
+| cart.html | Giỏ hàng, chọn giao hàng hoặc đến lấy, áp dụng voucher và đặt hàng |
+| orders.html | Theo dõi đơn và xem các đơn gắn với tài khoản đã đăng nhập |
+| feedback.html | Gửi góp ý về món ăn và dịch vụ |
+| login.html | Đăng nhập hoặc tạo tài khoản khách bằng số điện thoại |
+| admin-login.html, admin.html | Đăng nhập quản trị riêng và dashboard quản lý cửa hàng |
+
+Các tài nguyên dùng chung:
+
+- css/style.css chứa kiểu dáng và bố cục của khu vực khách hàng.
+- css/admin.css chứa kiểu dáng của dashboard quản trị.
+- js/ chứa xử lý trang chủ, thực đơn, giỏ hàng, đăng nhập, đơn hàng, góp ý và quản trị.
+- images/ chứa logo và ảnh món ăn.
+
+## Bố cục và trải nghiệm
+
+- Thanh điều hướng ghim ở đầu màn hình khi cuộn. Logo Kat nằm bên trái và đưa khách về trang chủ; năm liên kết chính nằm giữa; giỏ hàng và tài khoản nằm bên phải.
+- Các trang dùng chung một footer để giữ thông tin liên hệ và chi nhánh nhất quán. Trang Thực đơn và Ưu đãi hôm nay không có footer nhằm dành không gian cho món ăn và combo.
+- Trang chủ mở đầu bằng ảnh món ăn tràn chiều ngang, không bo góc. Ảnh tự đổi mỗi 5 giây bằng hiệu ứng mờ dần. Khi người dùng chuyển ảnh bằng nút, ảnh trượt; vòng từ ảnh cuối về ảnh đầu dùng hiệu ứng mờ. Nút mũi tên hiện khi di chuột hoặc dùng bàn phím, rồi mờ dần sau 3 giây không tương tác.
+- Phần tiếp theo trên trang chủ giới thiệu món bán chạy, dẫn vào thực đơn, kể ngắn về quán Kat và giới thiệu hai cơ sở.
+- Thực đơn ưu tiên ảnh và thẻ món gọn. Trên màn hình desktop, lưới hiển thị sáu món mỗi hàng. Những món cùng loại được gom trong một thẻ; bấm thẻ để mở popup, chọn phiên bản, khẩu vị hoặc topping và xem giá trước khi thêm vào giỏ. Ảnh popup đổi theo lựa chọn nếu lựa chọn đó có ảnh riêng.
+- Thực đơn nạp thêm món khi khách cuộn xuống, không chia thành trang. Bộ lọc giá gồm dưới 15.000đ, từ 15.000đ đến 30.000đ và trên 30.000đ.
+- Ưu đãi tập trung vào voucher công khai và combo. Dashboard quản trị cho phép quản lý món, danh mục, đơn hàng, combo, voucher, đánh giá, góp ý và tài khoản.
+- Laptop và Chrome là mục tiêu trình bày chính; giao diện cũng có quy tắc co giãn cho màn hình nhỏ hơn.
+
+## Màu sắc và kiểu chữ
+
+Kat dùng bảng màu sáng dựa trên bảng màu gốc của Maika mà người dùng đã chọn. Màu đỏ rượu vang tạo nhận diện quán ăn và làm nổi các nút hành động; nền trắng giữ ảnh món ăn rõ và dễ nhìn.
+
+| Vai trò | Màu |
+| --- | --- |
+| Màu thương hiệu, nút chính, trạng thái chọn | #8C2224 |
+| Hover của nút chính | #6E1B1C |
+| Nền trang và vùng nội dung chính | #FFFFFF |
+| Tiêu đề | #111111 |
+| Nội dung và điều hướng | #252525 |
+| Chữ phụ | #666666 |
+| Đường viền và phân cách | #E5E5E5 |
+| Điểm nhấn vàng kem | #F1D0A5 |
+| Chữ phụ trong footer đỏ | #E0E0E0 |
+
+Website chỉ dùng giao diện sáng. Thanh điều hướng và nút chính dùng đỏ thương hiệu để dễ nhận biết; nền, thẻ và khoảng trắng phân tách nội dung. Font Be Vietnam Pro được dùng xuyên suốt để tiếng Việt dễ đọc và các trang có kiểu chữ thống nhất.
+
+## OpenDesigner và vai trò của AI
+
+OpenDesigner là một skill dành cho Codex, được dùng trong quá trình thiết kế website Kat. Skill hỗ trợ chuyển các trao đổi về thẩm mỹ thành hướng thiết kế cụ thể: bảng màu và token, chữ, độ tương phản, nhịp khoảng cách, cấu trúc trang, trạng thái tương tác và cách rà soát giao diện.
+
+Các quyết định trong website được hình thành qua trao đổi với người dùng, gồm việc tham khảo cách trình bày của Maika và Popeyes, sau đó điều chỉnh theo thương hiệu Kat và mô hình quán ăn vặt. OpenDesigner hỗ trợ Codex tổ chức và áp dụng những quyết định đó vào giao diện; nó không phải máy chủ hay framework mà khách cần chạy để đặt món. Website vẫn được phục vụ như các trang HTML, CSS và JavaScript tĩnh.
 
 ## Thêm món và lựa chọn trong quản trị
 
 Trong form món ăn:
 
-- Giá bán hoặc giá thấp nhất là giá của món không có lựa chọn. Khi món có lựa chọn, hệ thống lấy giá thấp nhất trong các lựa chọn.
-- Giá gốc là giá tham khảo hiển thị gạch ngang; để trống hoặc nhập 0 nếu không áp dụng.
-- Lựa chọn và giá có một dòng cho mỗi lựa chọn theo mẫu Tên lựa chọn | giá bằng đồng. Ví dụ:
+- Giá bán hoặc giá thấp nhất là giá của món không có lựa chọn. Nếu món có các lựa chọn với giá riêng, khách sẽ thấy giá tương ứng sau khi chọn.
+- Giá gốc là giá tham khảo hiển thị gạch ngang; nhập 0 nếu không áp dụng.
+- Mỗi lựa chọn nằm trên một dòng theo mẫu Tên lựa chọn | giá bằng đồng. Ví dụ:
 
       Mẹt viên chiên nhỏ | 35000
       Mẹt viên chiên lớn | 55000
 
-  Khách chọn một loại trong popup và giá được tính theo loại đó.
-- Có thể tải ảnh chính cho món và ảnh riêng cho từng lựa chọn. Nếu lựa chọn không có ảnh riêng, popup dùng ảnh chính của món.
+- Có thể tải ảnh chính cho món và ảnh riêng cho từng lựa chọn. Nếu chưa có ảnh riêng, popup dùng ảnh chính của món.
+- Danh mục quản lý riêng trong dashboard. Thêm hoặc gỡ món khỏi danh mục để cập nhật cách khách duyệt thực đơn.
 
-## Cơ sở
+## Chi nhánh
 
 - Cơ sở chính: 273 An Dương Vương, Phường Chợ Quán (Quận 5 cũ), TP. HCM.
 - Cơ sở 1: 105 Bà Huyện Thanh Quan, Phường Xuân Hòa (Quận 3 cũ), TP. HCM.
 - Cả hai cơ sở mở cửa từ 8:00 đến 18:00.
 
-## Lưu ý về dữ liệu
+## Dữ liệu và giới hạn của bản hiện tại
 
-Website lưu tài khoản, thực đơn, giỏ hàng và đơn trong bộ nhớ cục bộ của trình duyệt. Dữ liệu không tự đồng bộ giữa thiết bị hoặc trình duyệt. Đây là bản demo, chưa có máy chủ, cơ sở dữ liệu dùng chung, xác thực an toàn hay cổng thanh toán thật. Hình thức QR chỉ minh họa quy trình; không tạo giao dịch ngân hàng.
+Tài khoản, thực đơn, giỏ hàng, voucher, đánh giá và đơn hàng được lưu trong bộ nhớ cục bộ của trình duyệt. Dữ liệu không tự đồng bộ giữa các thiết bị hoặc trình duyệt. Phiên bản hiện tại chưa có máy chủ, cơ sở dữ liệu dùng chung, xác thực an toàn hay cổng thanh toán thật. Màn hình thanh toán QR chỉ minh họa quy trình và không tạo giao dịch ngân hàng.
 
-Số điện thoại, email và liên kết mạng xã hội đang là thông tin mẫu.
+Số điện thoại, email và liên kết mạng xã hội trong giao diện là thông tin mẫu.

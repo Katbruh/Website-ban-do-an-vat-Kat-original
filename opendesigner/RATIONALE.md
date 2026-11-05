@@ -35,7 +35,7 @@ Chủ dự án phê duyệt thay đổi cho hệ thống thiết kế. Dùng ski
 
 ## Dành cho đội thiết kế
 
-Ưu tiên cung cấp logo, ảnh món thật, hướng dẫn giọng điệu, font thương hiệu và biểu tượng riêng. Dùng `images/SOURCES.md` để xác định và thay ảnh minh họa hiện tại.
+Ưu tiên cung cấp logo, ảnh món thật, hướng dẫn giọng điệu, font thương hiệu và biểu tượng riêng.
 
 ---
 
