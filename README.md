@@ -1,6 +1,6 @@
 # Kat — website đặt món ăn vặt
 
-Kat là website nhiều trang cho một quán ăn vặt nhỏ do bốn sinh viên cùng tạo nên. Khách có thể xem món, chọn loại và giá, đặt giao hàng hoặc đến lấy tại quán, rồi theo dõi đơn hàng. Website được xây bằng HTML, CSS và JavaScript thuần, với sự hỗ trợ của AI qua Codex.
+Kat là website nhiều trang cho một quán ăn vặt nhỏ do bốn sinh viên cùng tạo nên. Khách có thể xem món, chọn loại và giá, đặt giao hàng hoặc đến lấy tại quán, rồi theo dõi đơn hàng.
 
 ## Mở website
 
